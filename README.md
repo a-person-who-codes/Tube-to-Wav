@@ -1,7 +1,4 @@
-
 ![Youtube Audio Downloader Landing Page](frontend/public/Project-Homepage.png)
-
-## Extended Syntax
 
 # Getting the Audio Downloader Started
 
