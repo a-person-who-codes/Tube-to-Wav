@@ -1,0 +1,51 @@
+.navigation-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    z-index: 99;
+}
+
+.navigation-brand {
+    font-size: 2em;
+}
+/* .brand:hover {
+    flex-grow: 2;
+} */
+
+.name {
+    font-size: 2em;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+/* Light Mode */
+@media (prefers-color-scheme: light) {
+    .navigation-container {
+        background-color: transparent;
+        color: #000000;
+    }
+    .navigation-brand {
+        background-color: transparent;
+        color: #000000;
+    }
+    .name {
+        background-color: transparent;
+        color: #000000;
+    }
+}
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    .navigation-container {
+        background-color: transparent;
+        color: #ffffff;
+    }
+    .navigation-brand {
+        background-color: transparent;
+        color: #ffffff;
+    }
+    .name {
+        background-color: transparent;
+        color: #ffffff;
+    }
+}

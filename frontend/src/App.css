@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* padding: 20px; */
+}
+
+/* Light Mode */
+@media (prefers-color-scheme: light) {
+  .App {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .App {
+    background-color: #202020;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,6 @@
+Flask
+pytube
+pydub
+flask-cors
+gunicorn
+yt-dlp

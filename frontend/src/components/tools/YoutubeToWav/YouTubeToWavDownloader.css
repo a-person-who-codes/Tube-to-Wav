@@ -1,0 +1,117 @@
+.youtube-to-wav-containter{
+    z-index: 99;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.youtube-to-wav-card {
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border-color: transparent;
+    width: 50%;
+    padding-left: 2.55%;
+    padding-right: 2.55%;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    display: flex;
+}
+
+.youtube-to-wav-card-title {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 2.5%;
+}
+
+.youtube-to-wav-card-subtittle {
+    text-align: center;
+    margin-bottom: 4.5%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.youtube-to-wav-label {
+    color: transparent;
+}
+
+.youtube-to-wav-submit-container {
+    display: flex;
+    justify-content: center;
+}
+
+.youtube-to-wav-submit-button {
+    text-align: center;
+}
+
+.youtube-to-wav-input {
+    margin-bottom: 2.5%;
+    backdrop-filter: blur(20px) saturate(200%);
+    -webkit-backdrop-filter: blur(20px) saturate(200%);
+    border-radius: 12px;
+    box-shadow: transparent;
+}
+
+/* Light Mode */
+@media (prefers-color-scheme: light) {
+    .youtube-to-wav-card {
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.15 );
+    }
+
+    .youtube-to-wav-card-title {
+        color: #ffbad2;
+    }
+
+    .youtube-to-wav-card-subtittle {
+        color: #ffbad0;
+    }
+
+    .youtube-to-wav-input {
+        background: rgba(255, 255, 255, 0.397);
+        border: 1px solid rgba(209, 213, 219, 0);
+    }
+    .youtube-to-wav-input:focus {
+        background: rgba(172, 172, 172, 0.397);
+        border: 1px solid rgba(209, 213, 219, 0);
+    }
+}
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    .youtube-to-wav-card {
+        background: rgba(59, 59, 59, 0.24);
+        box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.15 );
+    }
+
+    .youtube-to-wav-card-title {
+        color: #b98899;
+    }
+
+    .youtube-to-wav-card-subtittle {
+        color: #b98897;
+    }
+
+    .youtube-to-wav-label {
+        color: #ffbad2;
+    }
+    .youtube-to-wav-label:focus {
+        color: #ffbad0;
+    }
+
+    .youtube-to-wav-input {
+        background-color: rgba(31, 31, 31, 0.411);
+        border: 1px solid rgba(24, 24, 24, 0.411);
+        color: #ffbad2;
+    }
+    .youtube-to-wav-input:focus {
+        background-color: rgba(56, 56, 56, 0.582);
+        border: 1px solid rgba(24, 24, 24, 0.582);
+        color: #ffbad2;
+    }
+}
