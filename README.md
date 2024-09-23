@@ -1,7 +1,8 @@
 ![Youtube Audio Downloader Landing Page](frontend/public/Project-Homepage.png)
 
 ## Purpose
-I made this local project for myself to download .wav audio files from YouTube URLs.without all of the spam, ads, and privacy concerns found on current online websites with the same functionality.
+I made this local project for myself to download .wav audio files from YouTube URLs.
+Download today without all of the spam, ads, and privacy concerns found on current online websites with the same functionality.
 
 ### To Run the Frontend
 In the project directory, you can run:
