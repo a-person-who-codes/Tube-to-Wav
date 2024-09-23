@@ -19,13 +19,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-
 ### To Run the Backend
 In the project directory, you can run:
 
 1. cd backend
 2. `source myenv/bin/activate`
-3. `python3 app.py`
+   - You may have to create a new myenv (virtual environment)
+   - You can do so by running : `python3 -m venv myenv`
+   - Then proceed with `source myenv/bin/activate`
+4. `python3 app.py`
+   - If the port you're trying to run the python app on is taken :
+   - Navigate to app.py ln. 12 to change the port.
+   - Update the POST request in YouTubeToWavDownloader.js ln. 30 to the port chosen above.
 
 
 ### Is it okay to download audio from YouTube?
