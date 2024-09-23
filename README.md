@@ -1,9 +1,5 @@
 ![Youtube Audio Downloader Landing Page](frontend/public/Project-Homepage.png)
 
-# Getting the Audio Downloader Started
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Purpose
 I made this local project for myself to download .wav audio files from YouTube URLs.without all of the spam, ads, and privacy concerns found on current online websites with the same functionality.
 
