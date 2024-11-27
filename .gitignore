@@ -5,7 +5,7 @@ instance/
 *.log
 *.env
 venv/
-env/
+myenv/
 .env
 node_modules/
 *shahid.py
